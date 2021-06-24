@@ -1,3 +1,3 @@
-print ('Hello World! Magda Magda Test')
+print ('Hello World! Magda Test')
 for i in range (1,11):
     print (i)

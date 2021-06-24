@@ -7,4 +7,6 @@ for i, j in shopping_dictionary.items():
 total_elements=0
 for j in shopping_dictionary:
     total_elements += len (shopping_dictionary[j])
-print('w sumie kupuję:', total_elements, 'produktów')
+print('w sumie kupuję tam:', total_elements, 'produktów')
+
+print (Hello World !!! Test Magda 2)
