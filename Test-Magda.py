@@ -1,6 +1,4 @@
-# print ('Hello World! Magda Magda Test')
-# for i in range (1,11):
-#     print (i)
+
 
 def demo_function():
 print("I`m inside function")
