@@ -130,24 +130,41 @@
 # if(string==string[::-1]):
 #       print("The string is a palindrome")
 # else:
-#       print("Not a palindrome")
+# #       print("Not a palindrome")
 
-def checker(string):
-  collection=list(string)
-  length = len(collection)
-  isPalindrom = True
-  for i in range(length):
-     if collection[i] != collection[length-i-1]:
-         isPalindrom = False
-         break;
+# def checker(string):
+#   collection=list(string)
+#   length = len(collection)
+#   isPalindrom = True
+#   for i in range(length):
+#      if collection[i] != collection[length-i-1]:
+#          isPalindrom = False
+#          break;
 
-     if isPalindrom :
-         print('String is Palindrome')
-     else:
-         print('String is not Palindrome')
+#      if isPalindrom :
+#          print('String is Palindrome')
+#      else:
+#          print('String is not Palindrome')
     
-name=input("Enter a string: ") 
-checker(name)
+# name=input("Enter a string: ") 
+# checker(name)
 
+
+
+# def shopping(items, payment='card', shop='local'):
+#     result = ''
+#     result=result + 'Idę na zakupy do %s. \n' %shop
+#     result= result+'kupię następujące rzeczy: \n'
+#     for i in items:
+#         result=result + '- %s \n'% i
+#     result = result + 'by zapłacić używam %s. ' %payment
+#     return result
+# items=['cola', 'whiskey', 'lód']
+# text = shopping (items, 'card', 'small local shop')
+# print(text)
+
+print("Pokażę wszystko, co wpiszesz!")
+text = input()
+print("Oto Twój tekst: ***%s***" % text)
 
 
