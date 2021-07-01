@@ -1,3 +1,4 @@
+#This method compares the first and the last element of the string incl capital letters
 def isPalindrome(text):
     text = text.lower()
     l = len(text)
