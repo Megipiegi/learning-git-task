@@ -1,2 +1,1 @@
-def customized_hello (first name, last name):
-    print('hello %s %s !'(first name, last name))
+print('Podaj działanie, posługując się odpowiednią liczbą: 1 Dodawanie, 2 Odejmowanie, 3 Mnożenie, 4 Dzielenie')
