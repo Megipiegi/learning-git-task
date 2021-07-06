@@ -15,5 +15,6 @@ else:
     print('nie ma takiej płci!')
     exit (1)
 print ('już wiem, Twoja pełnoletność w boolean to %s ' %str (adult))
+# Przy okazji, zwróć uwagę na wykorzystanie funkcji exit(), która kończy działanie programu. Jeśli podamy błędną płeć, wywołamy exit z parametrem 1, który oznacza, że nastąpił pewien błąd. Zwykle, gdy program kończy się poprawnie, to rezultat skryptu ma wartość 0.
 
 
