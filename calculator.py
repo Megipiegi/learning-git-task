@@ -14,7 +14,7 @@ while True:
         nr_1 = float(input('podaj pierwszy składnik: '))
         nr_2 = float(input('podaj drugi składnik: '))
         if decision =='1':
-            # print(nr_1, '+', nr_2, '=', add(nr_1, nr_2))
+            print(nr_1, '+', nr_2, '=', add(nr_1, nr_2))
             suma = add(nr_1, nr_2)
             logging.info('Rezultatem dodawania jest %s' % (suma))
         elif decision =='2':
