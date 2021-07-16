@@ -10,5 +10,5 @@ car_three = Car(make="Porsche", model_name="911", top_speed=320, color="Black")
 cars=[car_one, car_two, car_three]
 by_speed= sorted(cars, key=lambda car: car.top_speed)
 by_make=sorted(cars, key=lambda car: car.make)
-print(by_speed)
-#jak to zrobic, żeby te obiekty się wydrukowały po prędkości bo nie wiem jak to napisać, żeby wiadomo było że od najwolniejszego do najszybszego
+for i in by_speed:
+    print (i.top_speed)
